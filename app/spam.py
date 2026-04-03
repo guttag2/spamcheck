@@ -4,7 +4,7 @@ def check_spam(text: str) -> str:
         return "ham"
     spam_keywords = [
         "free", "win", "winner", "prize", "click",
-        "buy now", "urgent", "cash", "money", "offer", "deal"
+        "buy now", "urgent", "cash", "money", "offer", "deal","first","right now"
     ]
     hit = 0
     for kw in spam_keywords:
